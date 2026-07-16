@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm run *)",
+      "PowerShell(npx tsc --noEmit -p tsconfig.json 2>&1 | Select-Object -Last 60)",
+      "PowerShell(npx eslint app/page.tsx app/globals.css 2>&1 | Select-Object -Last 80)",
+      "PowerShell($r = Invoke-WebRequest -Uri \"http://localhost:3000\" -UseBasicParsing; $r.StatusCode; $r.Content.Length)"
+    ]
+  }
+}
