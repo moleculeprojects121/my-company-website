@@ -221,7 +221,7 @@ function Navbar({ onNavigate }: { onNavigate: () => void }) {
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-indigo-400 to-sky-400 text-sm font-bold text-slate-950">
             O
           </span>
-          Orbit
+          Orbit studio
         </a>
 
         <div className="hidden items-center gap-8 lg:flex">
